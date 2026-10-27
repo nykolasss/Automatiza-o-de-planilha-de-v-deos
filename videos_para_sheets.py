@@ -41,9 +41,9 @@ import gspread
 # ============================================================
 # CONFIGURAÇÕES  (ajuste aqui ou use os argumentos de linha de comando)
 # ============================================================
-PASTA_VIDEOS = r"D:\edição\Clientes\Natália"      # pasta central
+PASTA_VIDEOS = r"..."      # pasta central
 ARQUIVO_CREDENCIAIS = str(Path(__file__).with_name("credenciais.json"))  # JSON da conta de serviço
-NOME_PLANILHA = "Controle de Vídeos - Natália"    # título da planilha no Google Sheets
+NOME_PLANILHA = "Controle de Vídeos"    # título da planilha no Google Sheets
 NOME_ABA = "Pacote 3"                             # aba do pacote atual
 DATA_INICIAL = ""   # ex.: "21/09/2026" -> só vídeos a partir dessa data ("" = todos)
 EXTENSOES = {".mp4", ".mkv", ".mov", ".avi", ".webm", ".wmv", ".flv", ".m4v"}
